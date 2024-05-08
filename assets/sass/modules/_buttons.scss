@@ -1,0 +1,36 @@
+.btn {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+
+  @include m(primary) {
+    border: 1px solid $green;
+    color: $green;
+    background: $white;
+  }
+
+  @include m(secondary) {
+    background: $green;
+  }
+}
+
+.ps-btn-primary{
+  background-color: red;
+}
+
+
+.ps-primary-btn{
+  padding: 1rem 2rem;
+  display: inline-block;
+  background-color: $deep-blue;
+  border: none;
+  color: $white;
+  transition: 0.3s all;
+  font-weight: 500;
+  &:hover{
+    background-color: $intense-blue;
+    color: $white;
+  }
+}

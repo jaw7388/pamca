@@ -1,0 +1,26 @@
+#masthead{
+    .navbar{
+        .nav-item{
+            margin-left: 0.8rem;
+            .nav-link{
+                font-size: 1.25rem;
+                color: $deep-blue;
+                font-weight: 400;
+                transition: 0.3s all;
+                &:hover{
+                    //font-weight: 500;
+                    color: $intense-blue;
+                }
+            }
+        }
+    }
+    .navbar-nav{
+
+    }
+    .navbar-brand{
+        img{
+            height: 125px;
+            width: auto;
+        }
+    }
+}
