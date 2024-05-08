@@ -733,6 +733,30 @@ strong:after {
 }
 /* Sass Compiled Custom Grid Code End */
 /* Sass Compiled Theme Code Start */
+.text-color-primary-blue {
+  color: #293770;
+}
+
+.section-padding-regular {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.main-title-underline {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.main-title-underline:after {
+  content: "";
+  position: relative;
+  margin-top: 1rem;
+  width: 244px;
+  height: 6px;
+  background: linear-gradient(90deg, #293770, #009BDC);
+}
+
 /* Sass Compiled Theme Code End */
 /* Sass Compiled Css Code Start */
 * {
@@ -740,12 +764,6 @@ strong:after {
   padding: 0;
   box-sizing: border-box;
 }
-*:after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 html,
 body {
   font-size: 100%;
@@ -823,30 +841,6 @@ select:focus {
 option {
   background-color: #fff;
   color: #000;
-}
-
-.text-color-primary-blue {
-  color: #293770;
-}
-
-.section-padding-regular {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.main-title-underline {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.main-title-underline:after {
-  content: "";
-  position: relative;
-  margin-top: 1rem;
-  width: 244px;
-  height: 6px;
-  background: linear-gradient(90deg, #293770, #009BDC);
 }
 
 .btn {

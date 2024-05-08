@@ -101,3 +101,35 @@ $themes: (
 @function theme-type($type) {
   @return map-get($themes, $type);
 }
+
+
+// Text Colors
+.text-color-primary-blue{
+  color: $deep-blue;
+}
+// Global Paddings
+
+.section-padding-regular{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+// Custom
+
+.main-title-underline{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  &:after{
+    content: "";
+    position: relative;
+    // bottom: -1rem;
+    // left: 0;
+    margin-top: 1rem;
+    width: 244px;
+    height: 6px;
+    background: linear-gradient(90deg, $deep-blue, $intense-blue);
+  }
+}
+

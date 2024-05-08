@@ -15,9 +15,9 @@
   // Global Clearfixing
   @if $grid-type == 'float' {
     &:after {
-      clear: both;
-      content: '';
-      display: block;
+      // clear: both;
+      // content: '';
+      // display: block;
     }
   }
 }
@@ -25,7 +25,7 @@
 // Base Code
 html,
 body {
-  font-size: 100%;
+  font-size: 100%; 
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -101,34 +101,4 @@ select {
 option {
   background-color: $white;
   color: $black;
-}
-
-// Text Colors
-.text-color-primary-blue{
-  color: $deep-blue;
-}
-// Global Paddings
-
-.section-padding-regular{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-// Custom
-
-.main-title-underline{
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  margin-bottom: 2rem;
-  &:after{
-    content: "";
-    position: relative;
-    // bottom: -1rem;
-    // left: 0;
-    margin-top: 1rem;
-    width: 244px;
-    height: 6px;
-    background: linear-gradient(90deg, $deep-blue, $intense-blue);
-  }
 }
